@@ -1,0 +1,49 @@
+.sidebar {
+    @apply bg-cinza-800 border rounded-2xl border-cinza-700 overflow-hidden;
+}
+
+.cover {
+    @apply w-full h-[72px] object-cover;
+}
+
+.profile {
+    @apply flex flex-col items-center;
+}
+
+.avatar {
+    @apply w-10 box-content outline-2 outline-gray-600 rounded-md border-2 border-verde-500 p-[2px] -mt-6;
+}
+
+.username {
+    @apply mt-4 text-cinza-100 leading-4;
+}
+
+.role {
+    @apply mt-2 font-[0.875rem] text-cinza-400 leading-4;
+}
+
+.sidebar footer {
+    @apply border-t border-gray-600 mt-6 py-6 px-8;
+}
+
+.sidebar footer a {
+    @apply
+        flex
+        text-verde-500
+        hover:text-white
+        justify-center
+        items-center
+        no-underline
+        w-full
+        bg-transparent
+        hover:bg-verde-500
+        transition
+        border
+        rounded-2xl
+        border-verde-500
+        h-[50px]
+        py-0
+        px-4
+        gap-1
+        font-bold;
+}

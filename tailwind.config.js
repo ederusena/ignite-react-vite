@@ -14,6 +14,7 @@ export default {
         "cinza-700": "var(--gray-700)",
         "cinza-800": "var(--gray-800)",
         "cinza-900": "var(--gray-900)",
+        "verde-300": "var(--green-300)",
         "verde-500": "var(--green-500)",
       },
       fontFamily: {

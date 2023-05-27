@@ -1,3 +1,15 @@
 .header {
-    @apply bg-cinza-600 h-[131px];
+    @apply bg-cinza-600 h-20;
+}
+
+.nav {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.nav_flex {
+    @apply w-full py-6 flex items-center justify-between md:justify-center;
+}
+
+.profile {
+    @apply h-10 w-auto rounded-md p-[2px] border-2 border-verde-500;
 }

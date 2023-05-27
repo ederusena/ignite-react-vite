@@ -1,0 +1,7 @@
+.wrapper {
+    @apply max-w-6xl mx-auto px-4;
+}
+
+.container {
+    @apply grid grid-cols-[256px_1fr] py-4 gap-8 items-start;
+}

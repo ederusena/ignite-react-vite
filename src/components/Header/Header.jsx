@@ -1,25 +1,25 @@
 import styles from './Header.module.css'
 import Logo from '../../assets/images/logo.svg'
+import Profile from '../../assets/images/profile.svg'
 export function Header() {
     return (
         <>
             <header className={styles.header}>
-                <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
+                <nav className={styles.nav} aria-label="Top">
                     <div
-                        className="w-full py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none">
-                        <div className="flex items-center">
+                        className={styles.nav_flex}>
+                        <div className="flex items-center gap-2">
                             <a href="#">
-                                <span className="sr-only">Workflow</span>
+                                <span className="sr-only">Logo</span>
                                 <img className="h-10 w-auto" src={Logo} alt="Logo" />
                             </a>
+                            Ignite Feed
                         </div>
-                        <div className="ml-10 space-x-4">
-                            <a href="#"
-                               className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75">Sign
-                                in</a>
-                            <a href="#"
-                               className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50">Sign
-                                up</a>
+                        <div className="md:invisible ml-10 space-x-4">
+                            <a href="#">
+                                <span className="sr-only">Profile</span>
+                                <img className={styles.profile} src={Profile} alt="Profile" />
+                            </a>
                         </div>
                     </div>
                 </nav>
